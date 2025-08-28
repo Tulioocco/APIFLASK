@@ -7,7 +7,7 @@ current_id = 1
 
 
 def find_user(user_id: int):
-    """Retorna o dicionário do usuário ou None."""
+    
     return next((u for u in users if u["id"] == user_id), None)
 
 
